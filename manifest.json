@@ -3,8 +3,17 @@
     "description": "A simple extension that says hello",
     "version": "1.0.0",
     "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
     "action": {
-        "default_popup": "hello.html",
-        "default_icon": "hello_extensions.png"
-    }
+        "default_popup": "popup/popup.html",
+        "default_icon": "images/icon-128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://ftapi.pythonanywhere.com/"],
+            "js": ["popup/popup.js"]
+        }
+    ]
 }
