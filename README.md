@@ -1,2 +1,3 @@
 # hello_extension
- Learned the basics of Chrome extension development by building my first Hello World extension. []~(￣▽￣)~*
+
+Simple / basic chrome extension that says "Hello" in different languages ~ []~(￣▽￣)~*
