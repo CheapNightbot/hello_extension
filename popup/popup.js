@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         chrome.runtime.sendMessage(
             {
                 action: 'translate',
-                text: 'Hello!',
+                text: 'Hello, World!',
                 sourceLanguage: 'en',
                 targetLanguage: language
             },
