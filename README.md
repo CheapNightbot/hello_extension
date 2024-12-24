@@ -13,7 +13,8 @@ Simple / basic chrome extension that says "Hello, World!" in different languages
 
 git clone https://github.com/CheapNightbot/hello_extension
 ```
-    - You can download the repository by clicking on "Code" (green button on top), and then selecting "Download Zip" option.
+
+- You can download the repository by clicking on "Code" (green button on top), and then selecting "Download Zip" option.
 
 - Enter `chrome://extensions` in the URL bar. 
     - Alternatively, you can click on extension icon (somewhere in the top right corner) and click "Manage Extensions". 
